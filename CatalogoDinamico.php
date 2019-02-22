@@ -1,0 +1,153 @@
+<html><head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="prueba.css" rel="stylesheet" type="text/css">
+    </head><body> <!-- ATENCION: JOAQUIN DEJÓ NOTAS PARA VER QUE PARTES DE LA PAGINA DEBEN SER DINAMICAS -->
+        <div class="section cabecera">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-1 logo">
+                        <img src="Imagenes\LABTIC (logo).png" class="img-responsive logo">
+                    </div>
+                    <div class="col-md-5 text-left">
+                        <p></p>
+                        <h1 class="header">Lab
+                            <b>TIC&nbsp;</b>- UNITEC</h1>
+                        <p class="text-muted">Laboratorio de Desarrollo de Software incorporando las herramientas de
+                            las&nbsp;Tecnologías de la Información &nbsp;y la Comunicación&nbsp;</p>
+                    </div>
+                    <div>
+                        <ul class="lead nav nav-pills navbar-right">
+                            <li>
+                                <a href="Inicio.html"><i class="fa fa-fw fa-home fa-lg"></i>Inicio</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-fw fa-graduation-cap fa-lg"></i>Cursos</a>
+                            </li>
+                            <li>
+                                <a href="Contacto.html"><i class="fa fa-fw fa-lg -o fa-envelope"></i>Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section principal">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="header text-danger">
+                            <i class="fa fa-fw fa-lg fa-newspaper-o"></i>Noticias</h1>
+                        <div class="col-md-12 principal">
+                            <ul class="pagination">
+                                <li class="">
+                                    <a href="#">Anterior</a>
+                                </li>
+                                <li class="active"> <!-- ACA ESTA LA LISTA DE PAGINAS -->
+                                    <a href="#">1</a> <!-- La idea acá es: Segun el numero total de elementos de la tabla, dividir por la
+													cantidad que se muestra por pagina, y asi generar la cantidad de botones necesaria. (Un loop de n vueltas) -->
+                                </li>
+                                <li>
+                                    <a href="#">2</a>
+                                </li>
+                                <li>
+                                    <a href="#">3</a>
+                                </li>
+                                <li>
+                                    <a href="#">4</a>
+                                </li>
+                                <li>
+                                    <a href="#">5</a>
+                                </li>
+                                <li>
+                                    <a href="#">Siguiente</a> <!--  -->
+                                </li>
+                            </ul>
+                            <div class="row"> <!-- Los elementos estan ordenados en una tabla, esta es la definicion de una fila. Tiene tres elementos "clo-md-4" -->
+                                <div class="col-md-4"> <!-- ACA EMPIEZA UN RECUADRO DE SOFTWARE (clo-md-4)-->
+                                    <div class="thumbnail">
+                                        <img alt="Bootstrap Thumbnail First" src="Imagenes\Noticias\Temaiken.jpg">
+                                        <div class="caption">
+                                            <h3>Temaikén: jornada inclusiva&nbsp;</h3>
+                                            <p class="principal">29/11/2016 &nbsp;I Fuente: Télam
+                                                <br>
+                                            </p>
+                                            <p>El sábado 3 de diciembre el bioparque realizará una jornada especial donde
+                                                se promoverá la inclusión a través de actividades especiales.</p>
+                                            <a class="btn btn-success" href="http://www.telam.com.ar/notas/201611/172011-temaiken-realizara-una-jornada-inclusiva-para-personas-con-discapacidad.html">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div> <!-- ACA TERMINA UN RECUADRO DE SOFTWARE --> <!-- La idea sería que el php siga escribiendo elementos sacados de la base de datos php -->
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <img alt="Bootstrap Thumbnail Second" src="Imagenes\Noticias\Vision.jpg">
+                                        <div class="caption">
+                                            <h3>Mouse para personas con discapacidad motora</h3>
+                                            <p class="principal">24/11/2016 &nbsp;I Fuente: Télam</p>
+                                            <p>El diseño de Cristian Gómez consiste en unos anteojos con una cámara que
+                                                detecta el movimiento de la pupila, lo que permite desplazar el cursor
+                                                con la vista, y tiene un muy bajo costo de producción.</p>
+                                            <a class="btn btn-warning" href="http://www.telam.com.ar/notas/201611/171483-mouse-personas-discapacidad-motora.html">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4"> 
+                                    <div class="thumbnail">
+                                        <img alt="Bootstrap Thumbnail Third" src="Imagenes\Noticias\Hipoacusia.jpg">
+                                        <div class="caption">
+                                            <h3>Chicos que no oyen: claves para una detección temprana</h3>
+                                            <p class="principal">26/09/2016 &nbsp;I Fuente: Clarin</p>
+                                            <p>Descubrir la hipoacusia en los niños puede ser difícil, pero cuanto antes
+                                                se detecte mejores serán las posibilidades para que el niño se comunique,
+                                                aprenda y acepte vivir con ella.</p>
+                                            <a class="btn btn-danger" href="http://www.clarin.com/buena-vida/salud/Chicos-escuchan-claves-deteccion-temprana_0_1657634281.html">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row"> <!-- 2da fila de la tabla -->
+                                <div class="col-md-4">
+                                    <div class="thumbnail">
+                                        <img alt="Bootstrap Thumbnail First" src="Imagenes\Noticias\DiaDiscapacidad.jpg">
+                                        <div class="caption">
+                                            <p class="principal">01/12/2016 &nbsp;I Fuente: ONU</p>
+                                            <h3>3 de diciembre: día internacional de laas personas con discapacidad</h3>
+                                            <p>Desde 1992, cada 3 de diciembre se celebra mundialmente el Día Internacional
+                                                de las Personas con Discapacidades.</p>
+                                            <a class="btn btn-success" href="http://www.un.org/es/events/disabilitiesday/">Leer más</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid"></div>
+        <div class="section section-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h1>Lab
+                            <b>TIC</b>- UNITEC</h1>
+                        <p>Departamento de Electrónica
+                            <br>Facultad de Ingeniería
+                            <br>Universidad Nacional de La Plata
+                            <br>
+                            <br>Calle 116 y 48, 2º Piso, La Plata
+                            <br>Teléfono: +54 221 422-7628</p>
+                    </div>
+                    <div class="col-md-5 text-center">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.004643482597!2d-57.94468868560944!3d-34.90633298038217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzTCsDU0JzIyLjgiUyA1N8KwNTYnMzMuMCJX!5e0!3m2!1ses-419!2sar!4v1480180828742" width="500" height="200" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                    </div>
+                    <div class="col-md-3 text-right">
+                        <a href="#https://www.facebook.com/uid.unitec"><i class="fa fa-5x fa-facebook-square fa-fw text-inverse"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+</body></html>
